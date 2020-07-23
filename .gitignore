@@ -1,8 +1,13 @@
+## original
+*.pyc
+*.swp
+.ipynb_checkpoints/
+
+## new
 */.DS_Store
 .DS_Store
 
 */.idea*
 
-*.pyc
-*.swp
-.ipynb_checkpoints/
+__pycache__*
+cache*
