@@ -1,12 +1,22 @@
-name: python-ml
+name: intro-to-ml-with-python
 dependencies:
-  - numpy
-  - scipy
-  - scikit-learn
-  - matplotlib
-  - pandas
-  - pillow
-  - graphviz
-  - python-graphviz
-  - imageio
-  - joblib
+- python >= 3.6
+- pip
+- joblib
+#### standard data manipulation
+- numpy
+- pandas
+#### ml libraries
+- scipy
+- scikit-learn
+#### figures
+- matplotlib
+- seaborn
+- pillow
+- graphviz
+- python-graphviz
+- imageio
+#### for using this env as a kernel in jupyterlab
+- jupyter
+- jupyterlab
+- nb_conda_kernels
